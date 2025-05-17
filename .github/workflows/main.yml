@@ -28,7 +28,7 @@ jobs:
       with:
         registry: ghcr.io
         username: lakovire
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: 123
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
